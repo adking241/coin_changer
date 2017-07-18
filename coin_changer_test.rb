@@ -8,6 +8,6 @@ class TestCoinChanger < Minitest::Test #camelcase with class name otherwise copy
 	end
 
 	def test_assert_zero_cents_equals_empty
-		assert_equal({}, get_change(0))
+		assert_equal({}, get_change, (0))
 	end
 end
